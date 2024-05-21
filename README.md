@@ -1,9 +1,13 @@
 # PROJETO-PI-3SM
 PROJETO INTEGRADOR DESENVOLVIDO EM PRÓ DO MEIO AMBIENTE
 
-A proposta do projeto do 3° Semestre do curso de Desenvolvimento de Software Multiplataforma, é uma solução concebida com o propósito de monitorar e documentar a qualidade do ar e do solo em áreas determinadas. Através da integração de sensores, capazes de identificar os gases presentes no ambiente, e de um sensor de umidade do solo com comparador, que proporciona saída digital e analógica juntamente com sensibilidade ajustável, o projeto coleta, registra e armazena os dados em um banco de dados e essas informações são transmitidas em interface web, possibilitando a análise detalhada do ar e do solo sob observação.
-A principal finalidade deste projeto é oferecer um meio de avaliação contínua da qualidade do ar e do solo, permitindo a detecção precoce de áreas potencialmente prejudiciais à saúde humana, bem como para o cultivo agrícola.
-Mediante aos dados gerados pela interface web, os usuários podem ser informados sobre potenciais riscos à saúde e às atividades agrícolas.
+A proposta do projeto do 3° Semestre do curso de Desenvolvimento de Software Multiplataforma, é uma solução concebida com o propósito 
+de monitorar e documentar a qualidade do ar e do solo em áreas determinadas. Através da integração de sensores, capazes de identificar
+os gases presentes no ambiente, e de um sensor de umidade do solo com comparador, que proporciona saída digital e analógica juntamente
+com sensibilidade ajustável, o projeto coleta, registra e armazena os dados em um banco de dados e essas informações são transmitidas em 
+interface web, possibilitando a análise detalhada do ar e do solo sob observação. A principal finalidade deste projeto é oferecer um meio 
+de avaliação contínua da qualidade do ar e do solo, permitindo a detecção precoce de áreas potencialmente prejudiciais à saúde humana, bem 
+como para o cultivo agrícola. Mediante aos dados gerados pela interface web, os usuários podem ser informados sobre potenciais riscos à saúde e às atividades agrícolas.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 NOME DO PRODUTO: Monitoramento da Qualidade do Ar e do Solo.
 
@@ -13,7 +17,8 @@ O: Monitoramento de Qualidade do Ar e do Solo.
 É um: Sistema de monitoramento.
 Que: Utiliza sensores de gases e um sensor de umidade do solo com comparador para coletar, registrar e armazenar dados em um banco de dados centralizado.
 Diferentemente da: Monitoramento manual da qualidade ambiental.
-O nosso produto: Oferece uma solução automatizada e contínua, apresentando os dados em uma interface web intuitiva para análise detalhada, permitindo uma detecção rápida de problemas e uma gestão mais eficiente da agricultura, contribuindo com a saúde pública.
+O nosso produto: Oferece uma solução automatizada e contínua, apresentando os dados em uma interface web intuitiva para análise detalhada, 
+permitindo uma detecção rápida de problemas e uma gestão mais eficiente da agricultura, contribuindo com a saúde pública.
 
 BENEFÍCIOS
 •	Avaliação contínua da qualidade do ar e do solo
