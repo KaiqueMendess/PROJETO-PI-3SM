@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento da Qualidade do Ar e do Solo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #4CAF50;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #4CAF50;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+<style/>
+
+<body>
+    <header>
+        <h1>Monitoramento da Qualidade do Ar e do Solo</h1>
+        <p>Um projeto dedicado a monitorar e analisar a qualidade do ar e do solo para promover um ambiente mais saudável.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Definição do Produto</h2>
+            <p>O projeto propõe uma solução para monitorar a qualidade do ar e do solo em áreas específicas. Sensores identificam gases e umidade do solo, registrando e transmitindo dados para uma interface web para análise. A finalidade é oferecer avaliação contínua, detectando áreas prejudiciais à saúde e à agricultura.</p>
+        </section>
+
+        <section>
+            <h2>Termo de Abertura do Projeto</h2>
+            <h3>Visão do Produto</h3>
+            <p><strong>NOME DO PRODUTO:</strong> Monitoramento da Qualidade do Ar e do Solo.</p>
+            <p><strong>DESCRIÇÃO:</strong> Para agricultores, órgãos de saúde pública e pesquisadores ambientais que necessitam avaliar e documentar a qualidade do ar e do solo em áreas específicas.</p>
+            <p><strong>OBJETIVOS:</strong></p>
+            <ul>
+                <li>Desenvolver uma solução confiável e precisa para monitorar a qualidade do ar e do solo.</li>
+                <li>Fornecer uma interface web amigável e acessível para visualização e análise de dados.</li>
+                <li>Contribuir para a saúde pública e o desenvolvimento sustentável da agricultura.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Product Backlog</h2>
+            <ul>
+                <li>
+                    <h3>História de Usuário 1: Visualização de Qualidade</h3>
+                    <p>Prioridade: 25</p>
+                    <p>Título: Visualizar Qualidade do Ar e do Solo</p>
+                    <p>Descrição: Como agricultor, quero visualizar a qualidade do ar e do solo em uma interface web intuitiva para tomar decisões informadas sobre minha plantação.</p>
+                </li>
+                <li>
+                    <h3>História de Usuário 2: Alertas em Tempo Real</h3>
+                    <p>Prioridade: 25</p>
+                    <p>Título: Receber Alertas e Notificações</p>
+                    <p>Descrição: Como agricultor, quero receber alertas e notificações sobre as atividades agrícolas em tempo real.</p>
+                </li>
+                <li>
+                    <h3>História de Usuário 3: Acesso a Dados Históricos</h3>
+                    <p>Prioridade: 20</p>
+                    <p>Título: Acessar Dados Históricos</p>
+                    <p>Descrição: Como órgão de saúde pública, quero acessar dados históricos de qualidade do ar e do solo para análise de planejamento de ações preventivas.</p>
+                </li>
+                <li>
+                    <h3>História de Usuário 4: Gráficos e Relatórios</h3>
+                    <p>Prioridade: 20</p>
+                    <p>Título: Visualizar Gráficos e Relatórios</p>
+                    <p>Descrição: Como agricultor, quero visualizar gráficos e relatórios sobre a qualidade do ar e do solo para entender melhor as condições ao longo do tempo.</p>
+                </li>
+                <li>
+                    <h3>História de Usuário 5: Aplicação Móvel</h3>
+                    <p>Prioridade: 10</p>
+                    <p>Título: Acessar Informações via Dispositivo Móvel</p>
+                    <p>Descrição: Como agricultor, quero acessar informações sobre a qualidade do ar e do solo através de um dispositivo móvel para tomar decisões no campo.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Monitoramento da Qualidade do Ar e do Solo</p>
+    </footer>
+</body>
+
+</html>
