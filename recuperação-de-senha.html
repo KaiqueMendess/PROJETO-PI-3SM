@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esqueci a Senha</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <img src="img/logo.png" alt="Logo" class="logo">
+            <form id="forgotPasswordForm" action="PHP/send_reset_link.php" method="POST">
+                <input type="text" name="email" id="Email" placeholder="Email" required>
+                <button type="submit">Enviar Link de Redefinição</button>
+                <button type="button" onclick="redirectToLogin()">Login</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function redirectToLogin() {
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+</html>
