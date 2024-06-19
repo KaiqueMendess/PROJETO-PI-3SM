@@ -80,6 +80,7 @@ Inicie o servidor:
 
 sh
 php -S localhost:8000
+
 Acesse o aplicativo:
 Abra o navegador e vá para http://localhost.
 Contribuição
@@ -88,6 +89,8 @@ Crie uma nova branch: git checkout -b minha-nova-feature.
 Faça suas alterações e commit: git commit -m 'Adiciona nova feature'.
 Envie para o repositório original: git push origin minha-nova-feature.
 Crie uma solicitação de pull.
+
+
 Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE.md para detalhes.
 
