@@ -1,58 +1,100 @@
-# PROJETO-PI-3SM
-PROJETO INTEGRADOR DESENVOLVIDO EM PRÓ DO MEIO AMBIENTE
+# Clean Earth
 
-A proposta do projeto do 3° Semestre do curso de Desenvolvimento de Software Multiplataforma, é uma solução concebida com o propósito 
-de monitorar e documentar a qualidade do ar e do solo em áreas determinadas. Através da integração de sensores, capazes de identificar
-os gases presentes no ambiente, e de um sensor de umidade do solo com comparador, que proporciona saída digital e analógica juntamente
-com sensibilidade ajustável, o projeto coleta, registra e armazena os dados em um banco de dados e essas informações são transmitidas em 
-interface web, possibilitando a análise detalhada do ar e do solo sob observação. A principal finalidade deste projeto é oferecer um meio 
-de avaliação contínua da qualidade do ar e do solo, permitindo a detecção precoce de áreas potencialmente prejudiciais à saúde humana, bem 
-como para o cultivo agrícola. Mediante aos dados gerados pela interface web, os usuários podem ser informados sobre potenciais riscos à saúde e às atividades agrícolas.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-NOME DO PRODUTO: Monitoramento da Qualidade do Ar e do Solo.
+## Descrição do Projeto
 
-DESCRIÇÃO: Para: Agricultores, órgãos de saúde pública e pesquisadores ambientais.
-Que tem: A necessidade de avaliar e documentar a qualidade do ar e do solo em áreas específicas.
-O: Monitoramento de Qualidade do Ar e do Solo.
-É um: Sistema de monitoramento.
-Que: Utiliza sensores de gases e um sensor de umidade do solo com comparador para coletar, registrar e armazenar dados em um banco de dados centralizado.
-Diferentemente da: Monitoramento manual da qualidade ambiental.
-O nosso produto: Oferece uma solução automatizada e contínua, apresentando os dados em uma interface web intuitiva para análise detalhada, 
-permitindo uma detecção rápida de problemas e uma gestão mais eficiente da agricultura, contribuindo com a saúde pública.
+O **Clean Earth** é um aplicativo web desenvolvido para monitorar a qualidade do ar, solo e temperatura usando um sensor. O sistema é equipado com funcionalidades de login e cadastro seguros, protegidos contra SQL Injection. O painel administrativo permite o acesso a informações detalhadas de monitoramento e a possibilidade de adicionar novos sensores para expandir as capacidades de monitoramento.
 
-BENEFÍCIOS
-•	Avaliação contínua da qualidade do ar e do solo
-•	Detecção precoce de áreas potencialmente prejudiciais à saúde humana e ao cultivo agrícola
-•	Informações claras e acessíveis para os usuários, permitindo a tomada de decisões informadas
+## Funcionalidades Principais
 
-OBJETIVOS
-•	Desenvolver uma solução confiável e precisa para monitorar a qualidade do ar e do solo
-•	Fornecer uma interface web amigável e acessível para visualização e análise de dados
-•	Contribuir para a saúde pública e o desenvolvimento sustentável da agricultura.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Product Backlog
+- **Login e Cadastro**: Sistema robusto com proteção contra SQL Injection.
+- **Painel do Admin**: Acesso a informações de monitoramento ambiental.
+- **Monitoramento em Tempo Real**: Sensor para qualidade do ar, solo e temperatura.
+- **Escalabilidade**: Capacidade de adicionar novos sensores.
+- **Recuperação de Senha**: Implementado com segurança.
+- **Integração com API do Google**: Para login e outras funcionalidades.
+- **Páginas Informativas**: Incluindo página sobre e outras atualizações.
 
-História de Usuário 1: Visualização de Qualidade
-Prioridade: 25
-Título: Visualizar Qualidade do Ar e do Solo
-Descrição: Como agricultor, quero visualizar a qualidade do ar e do solo em uma interface web intuitiva para tomar decisões informadas sobre minha plantação.
+## Estrutura do Projeto
 
-História de Usuário 2: Alertas em Tempo Real
-Prioridade: 25
-Título: Receber Alertas e Notificações
-Descrição: Como agricultor, quero receber alertas e notificações sobre as atividades agrícolas em tempo real.
+A estrutura do projeto é organizada da seguinte forma:
 
-História de Usuário 3: Acesso a Dados Históricos
-Prioridade: 20
-Título: Acessar Dados Históricos
-Descrição: Como órgão de saúde pública, quero acessar dados históricos de qualidade do ar e do solo para análise de planejamento de ações preventivas.
+.
+├── .github/workflows
+│ └── static.yml
+├── PHP
+├── img
+├── sistema
+├── .env
+├── README.md
+├── cadastro.php
+├── composer.json
+├── composer.lock
+├── index.css
+├── index.php
+├── recuperação-de-senha.html
+├── scripts.js
+├── styles.css
+└── vendor.zip
 
-História de Usuário 4: Gráficos e Relatórios
-Prioridade: 20
-Título: Visualizar Gráficos e Relatórios
-Descrição: Como agricultor, quero visualizar gráficos e relatórios sobre a qualidade do ar e do solo para entender melhor as condições ao longo do tempo.
 
-História de Usuário 5: Aplicação Móvel
-Prioridade: 10
-Título: Acessar Informações via Dispositivo Móvel
-Descrição: Como agricultor, quero acessar informações sobre a qualidade do ar e do solo através de um dispositivo móvel para tomar decisões no campo.
+### Descrição dos Arquivos e Pastas
+
+- **.github/workflows**: Contém configurações para CI/CD.
+- **PHP**: Scripts PHP para funcionalidades backend.
+- **img**: Imagens usadas no site.
+- **sistema**: Arquivos principais do sistema.
+- **.env**: Variáveis de ambiente para configuração.
+- **README.md**: Documentação do projeto.
+- **cadastro.php**: Script para cadastro de novos usuários.
+- **composer.json**: Dependências do PHP.
+- **composer.lock**: Arquivo de lock do Composer.
+- **index.css**: Estilos principais do site.
+- **index.php**: Página inicial do site.
+- **recuperação-de-senha.html**: Página para recuperação de senha.
+- **scripts.js**: Scripts JavaScript.
+- **styles.css**: Estilos adicionais.
+- **vendor.zip**: Dependências de terceiros.
+
+## Tecnologias Utilizadas
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: PHP
+- **Banco de Dados**: MongoDB
+- **Autenticação**: Integração com API do Google para login
+- **Segurança**: Proteção contra SQL Injection
+
+## Como Executar o Projeto
+
+1. **Clone o repositório**:
+   ```sh
+   git clone https://github.com/seu-usuario/projeto-pi-3sm.git
+Instale as dependências:
+
+sh
+
+composer install
+Configure as variáveis de ambiente:
+Crie um arquivo .env na raiz do projeto e configure conforme necessário.
+
+Inicie o servidor:
+
+sh
+php -S localhost:8000
+Acesse o aplicativo:
+Abra o navegador e vá para http://localhost.
+Contribuição
+Faça um fork do projeto.
+Crie uma nova branch: git checkout -b minha-nova-feature.
+Faça suas alterações e commit: git commit -m 'Adiciona nova feature'.
+Envie para o repositório original: git push origin minha-nova-feature.
+Crie uma solicitação de pull.
+Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE.md para detalhes.
+
+Contato
+Para mais informações, entre em contato com:
+
+Kaique Mendess - GitHub
+Clean Earth - Monitorando o meio ambiente para um futuro melhor.
+
+Este README.md cobre todos os aspectos importantes do seu projeto, desde a descrição, funcionalidades, estrutura do projeto, tecnologias utilizadas, instruções de execução, até informações sobre contribuição e contato. Você pode ajustar ou expandir conforme necessário para se adequar às especificidades do seu projeto.
