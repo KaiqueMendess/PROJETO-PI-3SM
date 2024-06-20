@@ -303,21 +303,21 @@ section h2 {
     display: flex;
     justify-content: space-around;
     gap: 16px;
-    flex-wrap: wrap; /* Permite que os gráficos quebrem para a linha seguinte se não couberem em uma linha */
+    flex-wrap: wrap; 
   }
   
   .grafico {
-    width: 100%; /* Ou defina um tamanho fixo como max-width: 300px; */
-    max-width: 300px; /* Defina um tamanho máximo para os gráficos */
+    width: 100%; 
+    max-width: 300px; 
     text-align: center;
     background-color: var(--bg-card);
     border-radius: 8px;
     padding: 16px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Alinha o título no topo e o canvas no restante do espaço */
-    height: 500px; /* Altura fixa para todos os gráficos */
-    margin-bottom: 20px; /* Espaçamento inferior entre os gráficos */
+    justify-content: space-between;
+    height: 500px;
+    margin-bottom: 20px; 
   }
   
   .grafico h3 {
@@ -327,9 +327,9 @@ section h2 {
   }
   
   .grafico canvas {
-    max-width: 100%; /* Garante que o canvas não ultrapasse a largura do elemento pai */
-    max-height: calc(100% - 40px); /* Garante que o canvas não ultrapasse a altura do elemento pai, descontando o espaço ocupado pelo título */
-    margin: 0 auto; /* Centraliza o canvas horizontalmente */
+    max-width: 100%;
+    max-height: calc(100% - 40px); 
+    margin: 0 auto; 
   }
   
   
