@@ -99,5 +99,3 @@ Para mais informações, entre em contato com:
 
 Kaique Mendess - GitHub
 Clean Earth - Monitorando o meio ambiente para um futuro melhor.
-
-Este README.md cobre todos os aspectos importantes do seu projeto, desde a descrição, funcionalidades, estrutura do projeto, tecnologias utilizadas, instruções de execução, até informações sobre contribuição e contato. Você pode ajustar ou expandir conforme necessário para se adequar às especificidades do seu projeto.
