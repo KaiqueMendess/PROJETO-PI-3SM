@@ -14,9 +14,8 @@ O **Clean Earth** é um aplicativo web desenvolvido para monitorar a qualidade d
 - **Integração com API do Google**: Para login e outras funcionalidades.
 - **Páginas Informativas**: Incluindo página sobre e outras atualizações.
 
+```plaintext
 ## Estrutura do Projeto
-
-A estrutura do projeto é organizada da seguinte forma:
 
 .
 ├── .github/workflows
@@ -35,7 +34,7 @@ A estrutura do projeto é organizada da seguinte forma:
 ├── scripts.js
 ├── styles.css
 └── vendor.zip
-
+```
 
 ### Descrição dos Arquivos e Pastas
 
