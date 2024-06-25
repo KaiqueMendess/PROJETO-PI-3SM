@@ -33,6 +33,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             // Remove o token de redefinição
             $passwordResetsCollection->deleteOne(['token' => $token]);
             echo "Senha redefinida com sucesso.";
+
+            // Botão para ir para a página de login
+            echo '<button onclick="irParaLogin()">Ir para o Login</button>';
+
+            // Script JavaScript para redirecionar para a página de login
+            echo '<script>
+                    function irParaLogin() {
+                        window.location.href = "http://localhost/pimeioambiente/"; // Substitua com o URL da página de login
+                    }
+                  </script>';
         } else {
             echo "Erro ao redefinir a senha.";
         }

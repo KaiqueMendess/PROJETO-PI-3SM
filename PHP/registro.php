@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
 
     // URL da foto de perfil padrão
-    $defaultProfilePicture = 'img/default_profile_picture.jpg';
+    $defaultProfilePicture = 'img/perfil/padrao.jpg';
 
     // Verificar se o email já está cadastrado
     $user = $collection->findOne(['email' => $email]);
@@ -31,6 +31,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         if ($result->getInsertedCount() == 1) {
             echo "Cadastro realizado com sucesso!";
+            echo '<script>
+                    function irParaLogin() {
+                        window.location.href = "http://localhost/pimeioambiente/"; // Substitua com o URL da página de login
+                    }
+                  </script>';
         } else {
             echo "Erro ao cadastrar!";
         }
